@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9DAE561BDA80A4009DA461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9DAE551BDA80A4009DA461 /* LaunchScreen.storyboard */; };
+		180E70A225CB47EB00AE3D26 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E709F25CB47EB00AE3D26 /* ProgressHUD.m */; };
+		180E70A325CB47EB00AE3D26 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 180E70A125CB47EB00AE3D26 /* ProgressHUD.bundle */; };
+		180E70A525CB4F7800AE3D26 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E70A425CB4F7800AE3D26 /* MainTabBarViewController.swift */; };
+		180E70B525CB5F9800AE3D26 /* FTProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 180E70AA25CB5F9700AE3D26 /* FTProgressIndicator.bundle */; };
+		180E70B625CB5F9800AE3D26 /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E70AC25CB5F9700AE3D26 /* FTProgressIndicator.m */; };
+		180E70B725CB5F9800AE3D26 /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E70AE25CB5F9800AE3D26 /* FTNotificationIndicator.m */; };
+		180E70B825CB5F9800AE3D26 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E70B125CB5F9800AE3D26 /* FTToastIndicator.m */; };
+		180E70B925CB5F9800AE3D26 /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E70B425CB5F9800AE3D26 /* FTIndicator.m */; };
+		180E70BD25CB67E900AE3D26 /* RatingsStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E70BC25CB67E900AE3D26 /* RatingsStudents.swift */; };
+		180E70C125CB767200AE3D26 /* AXRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E70BF25CB767100AE3D26 /* AXRatingView.m */; };
+		1845641625C60BDD00C42B83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1845641525C60BDD00C42B83 /* GoogleService-Info.plist */; };
+		1845641925C60C6E00C42B83 /* QuickEatsCustomer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1845641725C60C6E00C42B83 /* QuickEatsCustomer.xcdatamodeld */; };
+		1850A01025CA43D9009D19BD /* SignupOrLoginEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850A00F25CA43D9009D19BD /* SignupOrLoginEmailViewController.swift */; };
+		186F268E2640631700D730BA /* garageImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 186F268D2640631600D730BA /* garageImage.png */; };
+		186F2690264067F700D730BA /* istockphoto-1191772225-612x612.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 186F268F264067F700D730BA /* istockphoto-1191772225-612x612.jpg */; };
+		B48F646E19B22EB200710BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F646D19B22EB200710BEB /* AppDelegate.swift */; };
+		B48F647319B22EB200710BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48F647119B22EB200710BEB /* Main.storyboard */; };
+		B48F647519B22EB200710BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48F647419B22EB200710BEB /* Images.xcassets */; };
+		B48F648E19B22F8700710BEB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F648D19B22F8700710BEB /* MapViewController.swift */; };
+		B48F649219B22F9400710BEB /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F648F19B22F9400710BEB /* GoogleDataProvider.swift */; };
+		B48F649319B22F9400710BEB /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F649019B22F9400710BEB /* GooglePlace.swift */; };
+		B48F649819B22F9B00710BEB /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F649519B22F9B00710BEB /* MarkerInfoView.swift */; };
+		B48F649919B22F9B00710BEB /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48F649619B22F9B00710BEB /* MarkerInfoView.xib */; };
+		B48F649A19B22F9B00710BEB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F649719B22F9B00710BEB /* UIViewExtension.swift */; };
+		B48F649C19B22FA500710BEB /* TypesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F649B19B22FA500710BEB /* TypesTableViewController.swift */; };
+		BF602BFB676AD52018D0D3A5 /* Pods_FindGarage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5065BB89FFF50D5367BA2973 /* Pods_FindGarage.framework */; };
+		E107EBDE1FE1CBA100D29CE8 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E107EBDD1FE1CBA100D29CE8 /* PlaceMarker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E9DAE551BDA80A4009DA461 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180E709E25CB47EA00AE3D26 /* FindGarage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindGarage-Bridging-Header.h"; sourceTree = "<group>"; };
+		180E709F25CB47EB00AE3D26 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		180E70A025CB47EB00AE3D26 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		180E70A125CB47EB00AE3D26 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		180E70A425CB4F7800AE3D26 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		180E70AA25CB5F9700AE3D26 /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FTProgressIndicator.bundle; sourceTree = "<group>"; };
+		180E70AB25CB5F9700AE3D26 /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
+		180E70AC25CB5F9700AE3D26 /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
+		180E70AE25CB5F9800AE3D26 /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
+		180E70AF25CB5F9800AE3D26 /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
+		180E70B125CB5F9800AE3D26 /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		180E70B225CB5F9800AE3D26 /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
+		180E70B325CB5F9800AE3D26 /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
+		180E70B425CB5F9800AE3D26 /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
+		180E70BC25CB67E900AE3D26 /* RatingsStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsStudents.swift; sourceTree = "<group>"; };
+		180E70BF25CB767100AE3D26 /* AXRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXRatingView.m; sourceTree = "<group>"; };
+		180E70C025CB767100AE3D26 /* AXRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXRatingView.h; sourceTree = "<group>"; };
+		1845641525C60BDD00C42B83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1845641825C60C6E00C42B83 /* QuickEatsRider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuickEatsRider.xcdatamodel; sourceTree = "<group>"; };
+		1850A00F25CA43D9009D19BD /* SignupOrLoginEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupOrLoginEmailViewController.swift; sourceTree = "<group>"; };
+		186F268D2640631600D730BA /* garageImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garageImage.png; sourceTree = "<group>"; };
+		186F268F264067F700D730BA /* istockphoto-1191772225-612x612.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "istockphoto-1191772225-612x612.jpg"; sourceTree = "<group>"; };
+		415D88171F7754C0ACC486F9 /* Pods-FindGarage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGarage.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindGarage/Pods-FindGarage.release.xcconfig"; sourceTree = "<group>"; };
+		5065BB89FFF50D5367BA2973 /* Pods_FindGarage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindGarage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6504C8534735AC4D678E8A95 /* Pods-Feed Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feed Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feed Me/Pods-Feed Me.release.xcconfig"; sourceTree = "<group>"; };
+		79140D881E4BB696EB110D2C /* Pods-Feed Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feed Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feed Me/Pods-Feed Me.debug.xcconfig"; sourceTree = "<group>"; };
+		B34F9136009D0272BCD5F620 /* Pods-FindGarage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGarage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindGarage/Pods-FindGarage.debug.xcconfig"; sourceTree = "<group>"; };
+		B48F646819B22EB200710BEB /* Uniassists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uniassists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48F646C19B22EB200710BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48F646D19B22EB200710BEB /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B48F647219B22EB200710BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B48F647419B22EB200710BEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B48F648D19B22F8700710BEB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B48F648F19B22F9400710BEB /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		B48F649019B22F9400710BEB /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		B48F649519B22F9B00710BEB /* MarkerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		B48F649619B22F9B00710BEB /* MarkerInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerInfoView.xib; sourceTree = "<group>"; };
+		B48F649719B22F9B00710BEB /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B48F649B19B22FA500710BEB /* TypesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesTableViewController.swift; sourceTree = "<group>"; };
+		E107EBDD1FE1CBA100D29CE8 /* PlaceMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48F646519B22EB200710BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF602BFB676AD52018D0D3A5 /* Pods_FindGarage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180E709D25CB47DF00AE3D26 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				180E70BE25CB767100AE3D26 /* AXRatingView */,
+				180E70A825CB5F7F00AE3D26 /* FTIn */,
+				180E70A125CB47EB00AE3D26 /* ProgressHUD.bundle */,
+				180E70A025CB47EB00AE3D26 /* ProgressHUD.h */,
+				180E709F25CB47EB00AE3D26 /* ProgressHUD.m */,
+				180E709E25CB47EA00AE3D26 /* FindGarage-Bridging-Header.h */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		180E70A825CB5F7F00AE3D26 /* FTIn */ = {
+			isa = PBXGroup;
+			children = (
+				180E70B325CB5F9800AE3D26 /* FTIndicator.h */,
+				180E70B425CB5F9800AE3D26 /* FTIndicator.m */,
+				180E70AD25CB5F9800AE3D26 /* FTNotificationIndicator */,
+				180E70A925CB5F9700AE3D26 /* FTProgressIndicator */,
+				180E70B025CB5F9800AE3D26 /* FTToastIndicator */,
+			);
+			path = FTIn;
+			sourceTree = "<group>";
+		};
+		180E70A925CB5F9700AE3D26 /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				180E70AA25CB5F9700AE3D26 /* FTProgressIndicator.bundle */,
+				180E70AB25CB5F9700AE3D26 /* FTProgressIndicator.h */,
+				180E70AC25CB5F9700AE3D26 /* FTProgressIndicator.m */,
+			);
+			path = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		180E70AD25CB5F9800AE3D26 /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				180E70AE25CB5F9800AE3D26 /* FTNotificationIndicator.m */,
+				180E70AF25CB5F9800AE3D26 /* FTNotificationIndicator.h */,
+			);
+			path = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		180E70B025CB5F9800AE3D26 /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				180E70B125CB5F9800AE3D26 /* FTToastIndicator.m */,
+				180E70B225CB5F9800AE3D26 /* FTToastIndicator.h */,
+			);
+			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		180E70BE25CB767100AE3D26 /* AXRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				180E70BF25CB767100AE3D26 /* AXRatingView.m */,
+				180E70C025CB767100AE3D26 /* AXRatingView.h */,
+			);
+			path = AXRatingView;
+			sourceTree = "<group>";
+		};
+		B48F645F19B22EB200710BEB = {
+			isa = PBXGroup;
+			children = (
+				B48F646A19B22EB200710BEB /* FindGarage */,
+				B48F646919B22EB200710BEB /* Products */,
+				B48F649D19B231D500710BEB /* Frameworks */,
+				FAEABCE5C3556E0EA82AC713 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+		};
+		B48F646919B22EB200710BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48F646819B22EB200710BEB /* Uniassists.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48F646A19B22EB200710BEB /* FindGarage */ = {
+			isa = PBXGroup;
+			children = (
+				B48F646D19B22EB200710BEB /* AppDelegate.swift */,
+				1845641725C60C6E00C42B83 /* QuickEatsCustomer.xcdatamodeld */,
+				1845641525C60BDD00C42B83 /* GoogleService-Info.plist */,
+				186F268F264067F700D730BA /* istockphoto-1191772225-612x612.jpg */,
+				186F268D2640631600D730BA /* garageImage.png */,
+				180E70A425CB4F7800AE3D26 /* MainTabBarViewController.swift */,
+				180E70BC25CB67E900AE3D26 /* RatingsStudents.swift */,
+				180E709D25CB47DF00AE3D26 /* Libs */,
+				B48F648A19B22EFC00710BEB /* Controllers */,
+				B48F648B19B22F0600710BEB /* Model */,
+				B48F648C19B22F0B00710BEB /* Views */,
+				B48F647119B22EB200710BEB /* Main.storyboard */,
+				0E9DAE551BDA80A4009DA461 /* LaunchScreen.storyboard */,
+				B48F647419B22EB200710BEB /* Images.xcassets */,
+				B48F646B19B22EB200710BEB /* Supporting Files */,
+			);
+			path = FindGarage;
+			sourceTree = "<group>";
+		};
+		B48F646B19B22EB200710BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48F646C19B22EB200710BEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B48F648A19B22EFC00710BEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1850A00F25CA43D9009D19BD /* SignupOrLoginEmailViewController.swift */,
+				B48F648D19B22F8700710BEB /* MapViewController.swift */,
+				B48F649B19B22FA500710BEB /* TypesTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B48F648B19B22F0600710BEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B48F648F19B22F9400710BEB /* GoogleDataProvider.swift */,
+				B48F649019B22F9400710BEB /* GooglePlace.swift */,
+				E107EBDD1FE1CBA100D29CE8 /* PlaceMarker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B48F648C19B22F0B00710BEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B48F649519B22F9B00710BEB /* MarkerInfoView.swift */,
+				B48F649619B22F9B00710BEB /* MarkerInfoView.xib */,
+				B48F649719B22F9B00710BEB /* UIViewExtension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B48F649D19B231D500710BEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5065BB89FFF50D5367BA2973 /* Pods_FindGarage.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAEABCE5C3556E0EA82AC713 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79140D881E4BB696EB110D2C /* Pods-Feed Me.debug.xcconfig */,
+				6504C8534735AC4D678E8A95 /* Pods-Feed Me.release.xcconfig */,
+				B34F9136009D0272BCD5F620 /* Pods-FindGarage.debug.xcconfig */,
+				415D88171F7754C0ACC486F9 /* Pods-FindGarage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48F646719B22EB200710BEB /* FindGarage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48F648419B22EB200710BEB /* Build configuration list for PBXNativeTarget "FindGarage" */;
+			buildPhases = (
+				606B2440DF27CF36976B9B50 /* [CP] Check Pods Manifest.lock */,
+				B48F646419B22EB200710BEB /* Sources */,
+				B48F646519B22EB200710BEB /* Frameworks */,
+				B48F646619B22EB200710BEB /* Resources */,
+				BD2115DE22EEDA8CF18C6432 /* [CP] Embed Pods Frameworks */,
+				821595B51BB1DDD9ED9F815F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindGarage;
+			productName = "Feed Me";
+			productReference = B48F646819B22EB200710BEB /* Uniassists.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48F646019B22EB200710BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ron Kliffer";
+				TargetAttributes = {
+					B48F646719B22EB200710BEB = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 1170;
+					};
+				};
+			};
+			buildConfigurationList = B48F646319B22EB200710BEB /* Build configuration list for PBXProject "FindGarage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = B48F645F19B22EB200710BEB;
+			productRefGroup = B48F646919B22EB200710BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48F646719B22EB200710BEB /* FindGarage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48F646619B22EB200710BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48F647319B22EB200710BEB /* Main.storyboard in Resources */,
+				0E9DAE561BDA80A4009DA461 /* LaunchScreen.storyboard in Resources */,
+				180E70A325CB47EB00AE3D26 /* ProgressHUD.bundle in Resources */,
+				1845641625C60BDD00C42B83 /* GoogleService-Info.plist in Resources */,
+				B48F649919B22F9B00710BEB /* MarkerInfoView.xib in Resources */,
+				180E70B525CB5F9800AE3D26 /* FTProgressIndicator.bundle in Resources */,
+				B48F647519B22EB200710BEB /* Images.xcassets in Resources */,
+				186F268E2640631700D730BA /* garageImage.png in Resources */,
+				186F2690264067F700D730BA /* istockphoto-1191772225-612x612.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		606B2440DF27CF36976B9B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindGarage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821595B51BB1DDD9ED9F815F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindGarage/Pods-FindGarage-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindGarage/Pods-FindGarage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2115DE22EEDA8CF18C6432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindGarage/Pods-FindGarage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindGarage/Pods-FindGarage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48F646419B22EB200710BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845641925C60C6E00C42B83 /* QuickEatsCustomer.xcdatamodeld in Sources */,
+				180E70BD25CB67E900AE3D26 /* RatingsStudents.swift in Sources */,
+				B48F646E19B22EB200710BEB /* AppDelegate.swift in Sources */,
+				1850A01025CA43D9009D19BD /* SignupOrLoginEmailViewController.swift in Sources */,
+				B48F649219B22F9400710BEB /* GoogleDataProvider.swift in Sources */,
+				180E70C125CB767200AE3D26 /* AXRatingView.m in Sources */,
+				B48F649319B22F9400710BEB /* GooglePlace.swift in Sources */,
+				180E70B725CB5F9800AE3D26 /* FTNotificationIndicator.m in Sources */,
+				180E70B625CB5F9800AE3D26 /* FTProgressIndicator.m in Sources */,
+				E107EBDE1FE1CBA100D29CE8 /* PlaceMarker.swift in Sources */,
+				180E70A225CB47EB00AE3D26 /* ProgressHUD.m in Sources */,
+				B48F648E19B22F8700710BEB /* MapViewController.swift in Sources */,
+				B48F649A19B22F9B00710BEB /* UIViewExtension.swift in Sources */,
+				180E70A525CB4F7800AE3D26 /* MainTabBarViewController.swift in Sources */,
+				180E70B925CB5F9800AE3D26 /* FTIndicator.m in Sources */,
+				B48F649C19B22FA500710BEB /* TypesTableViewController.swift in Sources */,
+				B48F649819B22F9B00710BEB /* MarkerInfoView.swift in Sources */,
+				180E70B825CB5F9800AE3D26 /* FTToastIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B48F647119B22EB200710BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48F647219B22EB200710BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48F648219B22EB200710BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B48F648319B22EB200710BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48F648519B22EB200710BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34F9136009D0272BCD5F620 /* Pods-FindGarage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FindGarage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.QuickEatsCustomerDevelopment;
+				PRODUCT_NAME = Uniassists;
+				SWIFT_OBJC_BRIDGING_HEADER = "FindGarage/Libs/FindGarage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B48F648619B22EB200710BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415D88171F7754C0ACC486F9 /* Pods-FindGarage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FindGarage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.QuickEatsCustomerDevelopment;
+				PRODUCT_NAME = Uniassists;
+				SWIFT_OBJC_BRIDGING_HEADER = "FindGarage/Libs/FindGarage-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48F646319B22EB200710BEB /* Build configuration list for PBXProject "FindGarage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48F648219B22EB200710BEB /* Debug */,
+				B48F648319B22EB200710BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48F648419B22EB200710BEB /* Build configuration list for PBXNativeTarget "FindGarage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48F648519B22EB200710BEB /* Debug */,
+				B48F648619B22EB200710BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1845641725C60C6E00C42B83 /* QuickEatsCustomer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1845641825C60C6E00C42B83 /* QuickEatsRider.xcdatamodel */,
+			);
+			currentVersion = 1845641825C60C6E00C42B83 /* QuickEatsRider.xcdatamodel */;
+			path = QuickEatsCustomer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B48F646019B22EB200710BEB /* Project object */;
+}
